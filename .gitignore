@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+
+# macOS files
+.DS_Store
+
+# IntelliJ project files
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
