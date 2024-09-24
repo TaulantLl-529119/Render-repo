@@ -1,0 +1,20 @@
+{
+  "ids": {
+    "Friend": 6,
+    "Address": 4
+  },
+  "models": {
+    "Friend": {
+      "1": "{\"firstname\":\"John\",\"lastname\":\"Doe\",\"additionalProp1\":{},\"id\":1}",
+      "2": "{\"firstname\":\"John\",\"lastname\":\"Doe\",\"additionalProp1\":{},\"id\":2}",
+      "3": "{\"firstname\":\"John\",\"lastname\":\"Doe\",\"additionalProp1\":{},\"id\":3}",
+      "4": "{\"firstname\":\"John\",\"lastname\":\"Doe\",\"additionalProp1\":{},\"id\":4}",
+      "5": "{\"firstname\":\"John\",\"lastname\":\"Doe\",\"additionalProp1\":{},\"id\":5}"
+    },
+    "Address": {
+      "1": "{\"city\":\"Prishtina\",\"postcode\":\"10000\",\"street\":\"Main Street\",\"house_number\":\"123\",\"friendId\":1,\"additionalProp1\":{},\"id\":1}",
+      "2": "{\"city\":\"Prishtina\",\"postcode\":\"10000\",\"street\":\"Main Street\",\"house_number\":\"123\",\"friendId\":1,\"additionalProp1\":{},\"id\":2}",
+      "3": "{\"city\":\"Prishtina\",\"postcode\":\"10000\",\"street\":\"Main Street\",\"house_number\":\"123\",\"friendId\":1,\"additionalProp1\":{},\"id\":3}"
+    }
+  }
+}
