@@ -18,17 +18,11 @@ if (require.main === module) {
   // Run the application
   const config = {
     rest: {
-      port: +(process.env.PORT ?? 3000),
-      host: process.env.HOST !== undefined ? process.env.HOST : '0.0.0.0',
-      // The `gracePeriodForClose` provides a graceful close for http/https
-      // servers with keep-alive clients. The default value is `Infinity`
-      // (don't force-close). If you want to immediately destroy all sockets
-      // upon stop, set its value to `0`.
-      // See https://www.npmjs.com/package/stoppable
-      gracePeriodForClose: 5000, // 5 seconds
+      port: +(process.env.PORT ?? 3000),  // Port is set from the environment variable
+      host: process.env.HOST !== undefined ? process.env.HOST : '0.0.0.0',  // Host defaults to 0.0.0.0
+      gracePeriodForClose: 5000,  // 5 seconds grace period for closing connections
       openApiSpec: {
-        // useful when used with OpenAPI-to-GraphQL to locate your application
-        setServersFromRequest: true,
+        setServersFromRequest: true,  // OpenAPI settings
       },
     },
   };
