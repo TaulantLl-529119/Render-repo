@@ -1,6 +1,6 @@
-import {inject, Getter} from '@loopback/core';
-import {DefaultCrudRepository, repository, BelongsToAccessor} from '@loopback/repository';
-import {DbDataSource} from '../datasources';
+import {Getter, inject} from '@loopback/core';
+import {BelongsToAccessor, DefaultCrudRepository, repository} from '@loopback/repository';
+//import {DbDataSource} from '../datasources';
 import {Address, AddressRelations, Friend} from '../models';
 import {FriendRepository} from './friend.repository';
 

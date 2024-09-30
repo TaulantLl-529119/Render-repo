@@ -4,12 +4,12 @@ export * from './application';
 
 export async function main(options: ApplicationConfig = {}) {
   const app = new FriendApplication(options);
-  await app.boot();
+  await app.boot(); 1
   await app.start();
 
   const url = app.restServer.url;
   console.log(`Server is running at ${url}`);
-  console.log(`Try ${url}/ping`);
+  console.log(`Try ${url} / ping`);
 
   return app;
 }
