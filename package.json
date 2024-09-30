@@ -55,6 +55,7 @@
     "@loopback/rest": "^14.0.5",
     "@loopback/rest-explorer": "^7.0.5",
     "@loopback/service-proxy": "^7.0.5",
+    "friend": "file:",
     "loopback-connector-file": "^0.0.41",
     "loopback-connector-postgresql": "^7.1.5",
     "tslib": "^2.0.0"
